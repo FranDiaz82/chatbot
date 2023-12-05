@@ -2,7 +2,7 @@ import openai
 import streamlit as st
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Initialize a global list to store conversation history
 messages = [{"role": "system", "content": "You are a School Psychologist specialized in kids with autism and you should not reply questions that are not regarding School Psychologist specialized in kids with autism"}]
