@@ -2,10 +2,10 @@ import openai
 import streamlit as st
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Initialize a global list to store conversation history
-messages = [{"role": "system", "content": "You are a School Psychologist specialized in kids with autism"}]
+messages = [{"role": "system", "content": "You are a School Psychologist specialized in kids with autism and you should not reply questions that are not regarding School Psychologist specialized in kids with autism"}]
 
 def CustomChatGPT(user_input):
     messages.append({"role": "user", "content": user_input})
